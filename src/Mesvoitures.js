@@ -1,6 +1,7 @@
 // MesVoitures.js
 import React, { Component, useState } from "react";
 import Voiture from "./Voiture"; // Import du composant Voiture
+import Header from "../Header";
 
 class MesVoitures extends Component {
   constructor(props) {
@@ -19,7 +20,6 @@ class MesVoitures extends Component {
   render() {
     return (
       <div className="Mesvoitures w-75 m-auto">
-        <h1 id="contentVoiture">Liste des Voitures</h1>
         <table class="table mt-5">
           <thead>
             <tr>
